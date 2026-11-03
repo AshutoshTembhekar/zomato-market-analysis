@@ -67,21 +67,20 @@ Where $z(\cdot)$ denotes Z-score standardization ($\mu=0, \sigma=1$) and $w_{\te
 ---
 ## Repository Structure
 
-```text
-.
-├── Zomato Restaurant Dataset.csv          # Raw international restaurant catalog
-├── zomato_pricing_analysis.py            # Phase 1: Cleaning, Bayesian rating & quadrant modeling
-├── geospatial_clustering.py              # Phase 2: NCR geospatial K-Means clustering & mapping
-├── cluster_operations_analysis.py        # Phase 3: Channel adoption & operational impact pipeline
-├── pricing_positioning_matrix.png        # Scatter plot: Cost for Two vs. Bayesian Rating
-├── geospatial_clusters_map_v2.png        # Map: NCR coordinate clusters & centroids
-├── operational_impact_clusters.png       # Dual-panel bar chart: Adoption & rating premiums
-├── zomato_market_positioning.csv         # Processed catalog with quadrant tags
-├── zomato_geospatial_clustered.csv       # NCR catalog with cluster assignments
-├── cluster_operational_metrics.csv       # Summary metrics per cluster
-├── requirements.txt                      # Python dependencies
-└── README.md                             # Architectural and mathematical documentation
-```
+| File / Asset | Description |
+| :--- | :--- |
+| `Zomato Restaurant Dataset.csv` | Raw international restaurant catalog |
+| `zomato_pricing_analysis.py` | Phase 1: Cleaning, Bayesian rating & quadrant modeling |
+| `geospatial_clustering.py` | Phase 2: NCR geospatial K-Means clustering & mapping |
+| `cluster_operations_analysis.py` | Phase 3: Channel adoption & operational impact pipeline |
+| `pricing_positioning_matrix.png` | Scatter plot: Cost for Two vs. Bayesian Rating |
+| `geospatial_clusters_map_v2.png` | Map: NCR coordinate clusters & centroids |
+| `operational_impact_clusters.png` | Dual-panel bar chart: Adoption & rating premiums |
+| `zomato_market_positioning.csv` | Processed catalog with quadrant tags |
+| `zomato_geospatial_clustered.csv` | NCR catalog with cluster assignments |
+| `cluster_operational_metrics.csv` | Summary metrics per cluster |
+| `requirements.txt` | Python dependencies |
+| `README.md` | Architectural and mathematical documentation |
 
 ---
 
