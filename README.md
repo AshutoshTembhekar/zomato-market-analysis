@@ -74,7 +74,7 @@ Where $z(\cdot)$ denotes Z-score standardization ($\mu=0, \sigma=1$) and $w_{\te
 ├── geospatial_clustering.py              # Phase 2: NCR geospatial K-Means clustering & mapping
 ├── cluster_operations_analysis.py        # Phase 3: Channel adoption & operational impact pipeline
 ├── pricing_positioning_matrix.png        # Scatter plot: Cost for Two vs. Bayesian Rating
-├── geospatial_clusters_map.png           # Map: NCR coordinate clusters & centroids
+├── geospatial_clusters_map_v2.png        # Map: NCR coordinate clusters & centroids
 ├── operational_impact_clusters.png       # Dual-panel bar chart: Adoption & rating premiums
 ├── zomato_market_positioning.csv         # Processed catalog with quadrant tags
 ├── zomato_geospatial_clustered.csv       # NCR catalog with cluster assignments
