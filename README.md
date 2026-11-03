@@ -19,7 +19,7 @@ An end-to-end Python exploratory data analysis, spatial clustering, and operatio
 ![Market Positioning Matrix](pricing_positioning_matrix.png)
 
 ### 2. Geospatial Clustering & Spend Spread
-![Geospatial Clusters Map](geospatial_clusters_map.png)
+![Geospatial Clusters Map](geospatial_clusters_map_v2.png)
 
 ### 3. Operational Channel Adoption & Rating Impact
 ![Operational Impact Across Clusters](operational_impact_clusters.png)
