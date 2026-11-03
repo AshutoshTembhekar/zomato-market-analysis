@@ -65,7 +65,6 @@ Where $z(\cdot)$ denotes Z-score standardization ($\mu=0, \sigma=1$) and $w_{\te
 | **4** | **Central Premium Core** *(Connaught Place, Khan Market, Defence Colony)* | 464 | 31.3% | 71.6% | ₹2,129 | 3.90 | 693.1 |
 
 ---
-
 ## Repository Structure
 
 ```text
@@ -84,9 +83,46 @@ Where $z(\cdot)$ denotes Z-score standardization ($\mu=0, \sigma=1$) and $w_{\te
 └── README.md                             # Architectural and mathematical documentation
 ```
 
-Setup & Execution
-Prerequisites
-Python (>= 3.10)
+---
 
-Install dependencies:
+## Setup & Execution
+
+### Prerequisites
+* Python (>= 3.10)
+* Install dependencies:
+```bash
 pip install -r requirements.txt
+```
+
+*(Contents of `requirements.txt`: `numpy`, `pandas`, `matplotlib`, `seaborn`, `scikit-learn`)*
+
+### 1. Execute Market Positioning Pipeline
+Cleans the raw records, applies Bayesian quality scoring, assigns the 4 quadrants, and outputs the positioning plot:
+```bash
+python zomato_pricing_analysis.py
+```
+
+### 2. Run Geospatial Clustering
+Filters NCR coordinates, standardizes feature vectors, trains the $K$-Means model, and plots cluster centroids:
+```bash
+python geospatial_clustering.py
+```
+
+### 3. Run Operational Channel Analysis
+Calculates delivery and table booking adoption rates across clusters and evaluates rating and volume deltas:
+```bash
+python cluster_operations_analysis.py
+```
+
+---
+
+## Author & Project Lead
+
+**Ashutosh Tembhekar**  
+*Data & Analytics Professional*
+
+* **Core Focus:** Exploratory Data Analysis (EDA), Geospatial & Unsupervised Clustering, Operational Unit Economics, and Predictive Analytics.
+* **Technical Stack:** Python (Pandas, Scikit-Learn, Matplotlib, Seaborn), R (tidyverse, Shiny), SQL, Power BI.
+
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=flat&logo=github)](https://github.com/AshutoshTembhekar)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Projects-blue?style=flat&logo=buffer)](https://github.com/AshutoshTembhekar?tab=repositories)
